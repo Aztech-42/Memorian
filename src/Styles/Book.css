@@ -1,0 +1,83 @@
+.Book {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    display: block;
+    flex-direction: column;
+}
+
+.canvas {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pagecount {
+    border: none;
+    outline: none;
+    width: 45px;
+    height: 80px;
+    background-color: transparent;
+    font-size: medium;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: -7px;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 92%;
+    left: 43.5%;
+    height: 25px;
+    width: 180px;
+}
+
+
+.previous {
+    background-image: url('../assets/icons/caret-left-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.next {
+    background-image: url('../assets/icons/caret-right-fill.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.loading {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.img {
+    resize: both;
+    overflow: hidden;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

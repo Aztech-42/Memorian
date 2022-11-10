@@ -1,0 +1,71 @@
+.ToolBox {
+    height: 300px;
+    width: 80px;
+    display: flex;
+    background-color: #932c24;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    top: 25vh;
+    float: right;
+    left: -5px;
+    z-index: 9;
+}
+
+.text {
+    background-image: url('../assets/icons/text.png');
+    background-repeat: no-repeat;
+    background-position: -5px -13px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.draw {
+    background-image: url('../assets/icons/drawing.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.image {
+    background-image: url('../assets/icons/image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    color: transparent;
+}
+
+.video {
+    background-image: url('../assets/icons/video.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    color: transparent;
+}
+
+.divLabel {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+
+.controls {
+    background-color: red;
+}

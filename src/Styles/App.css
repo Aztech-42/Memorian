@@ -1,0 +1,25 @@
+.App {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.connect-wallet-button {
+  background-color: #932c24;
+  color: #f1ebe7;
+  font-weight: bolder;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 75px;
+  float: right;
+}
+
+.connect-wallet-button img {
+  height: 30px;
+}
