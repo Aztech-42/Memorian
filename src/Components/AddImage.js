@@ -38,7 +38,6 @@ function AddImage() {
     const changeMove = () => {
       setIsMoved(isMoved = !isMoved)
     }
-    document.getElementById('img').addEventListener('mousedown', mouseDown, false);
     window.addEventListener('mouseup', mouseUp, false);
 
     function mouseUp() {

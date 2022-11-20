@@ -78,8 +78,9 @@ function App() {
     return () => window.removeEventListener('load', onLoad);
   }, []);
   const renderNotConnectedContainer = () => (
-    <button className="connect-wallet-button" onClick={connectWallet()}><img src={PhantomLogo} /> Connect to Wallet</button>
+    <button className="connect-wallet-button" onClick={() => connectWallet()}><img src={PhantomLogo} /> Connect to Wallet</button>
   );
+
 
   return (
     <div className="App">
